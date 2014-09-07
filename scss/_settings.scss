@@ -444,6 +444,8 @@ $include-html-global-classes: $include-html-classes;
 // $button-font-weight: $font-weight-normal;
 // $button-font-align: center;
 
+$button-font-color: $primary-color;
+
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
 
@@ -459,6 +461,8 @@ $include-html-global-classes: $include-html-classes;
 // $success-button-border-color: $success-button-bg-hover;
 // $alert-button-bg-hover: scale-color($alert-color, $lightness: $button-function-factor);
 // $alert-button-border-color: $alert-button-bg-hover;
+
+$button-bg-color: #white;
 
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;
