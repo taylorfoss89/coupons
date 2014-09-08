@@ -103,6 +103,8 @@ $include-html-global-classes: $include-html-classes;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
+$body-bg: #0066FF;
+
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
 
@@ -119,6 +121,8 @@ $include-html-global-classes: $include-html-classes;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+
+$primary-color: #008CBA;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -139,6 +143,8 @@ $include-html-global-classes: $include-html-classes;
 // $oil         : #333333;
 // $jet         : #222222;
 // $black       : #000000;
+
+$white       : #FFFFFF;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -444,7 +450,7 @@ $include-html-global-classes: $include-html-classes;
 // $button-font-weight: $font-weight-normal;
 // $button-font-align: center;
 
-$button-font-color: $primary-color;
+$button-font-color: $white;
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
@@ -460,9 +466,8 @@ $button-font-color: $primary-color;
 // $success-button-bg-hover: scale-color($success-color, $lightness: $button-function-factor);
 // $success-button-border-color: $success-button-bg-hover;
 // $alert-button-bg-hover: scale-color($alert-color, $lightness: $button-function-factor);
-// $alert-button-border-color: $alert-button-bg-hover;
 
-$button-bg-color: #white;
+$button-bg-color: $body-bg;
 
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;

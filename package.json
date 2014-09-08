@@ -1,10 +1,15 @@
 {
   "name": "foundation-libsass-template",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taylorfoss89/coupons.git"
+  },
   "devDependencies": {
     "node-sass": "~0.7.0",
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-sass": "~0.8.0"
-  }
+  },
+  "private": true
 }
